@@ -1,0 +1,102 @@
+html {
+	font-family: 'Press Start 2P', cursive;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	background-color: #fcf7e8;
+	color: #ce4d41;
+}
+
+button{
+    font-family:'Press Start 2P', cursive; ;
+    background:none;
+    color:#ce4d41; ;
+}
+
+#strt-btn {
+    width:300px;
+    height:100px;
+    font-size: 32px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#restart-btn{
+    width:300px;
+    height:100px;
+    font-size: 32px;
+    border-radius: 20px;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hidden{
+    display: none;
+}
+
+
+#grid-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-row{
+    height:200px;
+    width: 600px;
+    display: flex;
+}
+.grid-item{
+    display: flex;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-color: #C0C0C0;
+}
+
+.X{
+    color:#4169E1;
+}
+
+.grid-item:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.turn-disp{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score-container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);   
+}
+
+#playerOne-score,#playerTwo-score{
+    font-size: 1.5rem;
+}
